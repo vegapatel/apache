@@ -5,6 +5,6 @@ service 'httpd' do
 end
 
 file '/var/www/html/index.html' do
-  content '<h1>Hello, world!</h1>'
+  content '<h1>Hello, world! and Great Work</h1>'
   action :create
 end
